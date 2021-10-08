@@ -66,7 +66,7 @@ a {
             top: 0;
             left: 0;
             &.letters-2,
-            .letters-3{
+            &.letters-3{
               color: var(--rd-color);
             }
           }
