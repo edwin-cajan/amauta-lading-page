@@ -1,0 +1,56 @@
+
+//Break points
+$sm:   576px;
+$md:   768px;
+$lg:   992px;
+$xl:  1200px;
+$xxl: 1400px;
+
+:root {
+// Colors
+--st-color: #12141D;
+--st-color-light: #202E39;
+--nd-color: #43D992;
+--rd-color: #F1B705;
+--white: #FFFFFF;
+--gray-1: #E8E8E8;
+--gray-2: #C4C4C4;
+--bg-linear: linear-gradient(270deg, #44DA91 63.47%, #97C94E 100%);
+
+// Typography
+--p-font: 'Oxanium', cursive;
+--s-font: 'Poppins', sans-serif;
+
+--main-text: 80px;
+--secundary-text: 36px;
+--title: 64px;
+--title-small: 48px;
+--sub-title: 32px;
+--body: 20px;
+}
+
+@media (max-width: $xxl) {
+  :root {
+    --main-text: 80px;
+    --secundary-text: 24px;
+  }
+}
+
+@media (max-width: $lg) {
+  :root {
+    --main-text: 64px;
+    --secundary-text: 20px;
+
+    --title: 36px;
+    --title-small: 28px;
+    --sub-title: 20px;
+    --body: 16px;
+  }
+}
+
+@media (max-width: $md) {
+  :root {
+    --main-text: 48px;
+    --secundary-text: 16px;
+  }
+}
