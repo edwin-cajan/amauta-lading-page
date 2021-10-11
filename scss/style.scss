@@ -65,8 +65,12 @@ a {
             position: absolute;
             top: 0;
             left: 0;
+            &.letters-1{
+              color: var(--nd-color);
+            }
             &.letters-2,
-            &.letters-3{
+            &.letters-3,
+            &.letters-4{
               color: var(--rd-color);
             }
           }
